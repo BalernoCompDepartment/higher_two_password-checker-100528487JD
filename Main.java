@@ -16,7 +16,7 @@ class Main {
     //Step 7: integer lastValue to the ascii value of lastLetter
     int lastLetterValue = (int) lastletterStart;
     //Step 8: If firstValue is between 40 and 42 AND lastValue is between 65 and 90 AND password length is greater than 7 THEN
-    if(firstLetterValue <42 && firstLetterValue >40  && lastLetterValue <90 && lastLetterValue <65 && password.length() >7){
+    if(firstLetterValue <43 && firstLetterValue >39  && lastLetterValue <91 && lastLetterValue >64 && password.length() >7){
     valid = true;
     }
     else {
