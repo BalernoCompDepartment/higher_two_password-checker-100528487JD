@@ -27,6 +27,6 @@ class Main {
     }
     //Step 13: END LOOP
     //Step 14: display "Your password meets the strength requirements"
-     System.out.println("your password meets the strength requirments");
+     System.out.println("your password meets the strength requirements");
   }
 }
